@@ -241,6 +241,38 @@ main {
   background: transparent;
 }
 
+/* === TEXT STYLES === */
+.articulo-info {
+  color: var(--text);
+  font-family: var(--font);
+  transition: var(--transition);
+}
+
+.articulo-info h2 {
+  color: var(--text);
+  font-size: 1.3rem;
+  margin-bottom: 4px;
+}
+
+.articulo-info .muted {
+  color: var(--muted);
+  font-size: var(--font-size-small);
+}
+
+.articulo-info .price {
+  color: var(--blue);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 6px 0;
+}
+
+.articulo-info .path {
+  color: var(--muted);
+  font-size: 0.85rem;
+  letter-spacing: 0.3px;
+}
+
+
 /* === MOBILE OPTIMIZATION === */
 @media (hover: none) {
   .card:hover {
