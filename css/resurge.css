@@ -333,3 +333,10 @@ footer {
   background: var(--card);
   border-top: 1px solid rgba(26,115,232,0.3);
 }
+
+html, body {
+  background-color: var(--bg) !important;
+  color: var(--text) !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
