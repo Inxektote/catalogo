@@ -26,13 +26,13 @@
 /* === LIGHT MODE === */
 @media (prefers-color-scheme: light) {
   :root {
-    --bg: #03060b;
-    --card: #fff;
-    --text: #111;
-    --muted: #555;
-    --border: rgba(26, 115, 232, 0.18);
-    --shadow: 0 0 10px rgba(26, 115, 232, 0.12);
-    --header-bg: rgba(255, 255, 255, 0.85);
+    --bg: #f6f7fb;              /* fondo suave, no blanco puro */
+    --card: #ffffff;            /* tarjetas limpias */
+    --text: #111111;            /* texto oscuro */
+    --muted: #666666;           /* texto secundario gris medio */
+    --border: rgba(26, 115, 232, 0.15); /* azul más sutil */
+    --shadow: 0 0 12px rgba(0, 0, 0, 0.08); /* sombra gris tenue */
+    --header-bg: rgba(255, 255, 255, 0.9); /* header translúcido */
   }
 }
 
